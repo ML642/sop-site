@@ -412,7 +412,7 @@ Działają więc w innej warstwie niż dowiązania twarde - są od nich bezpiecz
 Np. jeżeli plik na który wskazuje dowiązanie symboliczne zmieni nazwę takie dowiązanie przestanie być poprawne - plik na który wskazuje przestaje istnieć.
 W przypadku dowiązań twardych wszystkie one są równorzędne. W przypadku dowiązań symbolicznych są one tylko wskaźnikami odrębnymi od właściwego pliku.
 
-Do tworzenia dowiązań twardych służy funkcja `symlink` (`man 3p symlink`).
+Do tworzenia dowiązań symbolicznych służy funkcja `symlink` (`man 3p symlink`).
 
 ```
 int symlink(const char *path1, const char *path2);
